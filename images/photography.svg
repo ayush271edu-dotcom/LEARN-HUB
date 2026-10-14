@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE5EF"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C65C8A"/><stop offset="1" stop-color="#C65C8A" stop-opacity=".58"/></linearGradient></defs>
+<rect width="800" height="520" rx="24" fill="url(#bg)"/>
+<circle cx="680" cy="92" r="145" fill="#C65C8A" opacity=".12"/><circle cx="115" cy="455" r="155" fill="#C65C8A" opacity=".12"/>
+<rect x="478" y="90" width="235" height="295" rx="24" fill="#FFFFFF" opacity=".92" transform="rotate(7 595 237)"/>
+<rect x="505" y="111" width="235" height="295" rx="24" fill="url(#orb)" transform="rotate(7 622 258)"/>
+<circle cx="620" cy="222" r="78" fill="#FFFFFF" opacity=".86"/><text x="620" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="54" font-weight="700" fill="#C65C8A">◉</text>
+<path d="M535 312h165M535 333h122M535 354h143" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+<rect x="70" y="70" width="56" height="7" rx="3.5" fill="#C65C8A"/><text x="70" y="115" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4" fill="#25213A" opacity=".72">LEARNHUB CLASSROOM</text>
+<text x="68" y="300" font-family="Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="-1.5" fill="#25213A">PHOTOGRAPHY</text>
+<text x="70" y="340" font-family="Arial,sans-serif" font-size="20" fill="#25213A" opacity=".72">Find your perspective</text>
+<rect x="70" y="390" width="164" height="43" rx="21.5" fill="#C65C8A"/><text x="152" y="417" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">START LEARNING  ↗</text>
+<g fill="#C65C8A" opacity=".7"><circle cx="420" cy="110" r="7"/><circle cx="448" cy="110" r="7"/><circle cx="420" cy="138" r="7"/><circle cx="448" cy="138" r="7"/></g>
+</svg>

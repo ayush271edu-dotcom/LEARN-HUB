@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="LearnHub — discover practical online courses and build skills that move you forward.">
+  <title>LearnHub — Learn without limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="announcement">
+    <span>✦</span> Build your next skill. <strong>Explore 2,000+ courses</strong>
+    <button class="announcement-close" aria-label="Dismiss announcement">×</button>
+  </div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="LearnHub home"><span class="brand-mark">L</span><span>learn<span
+          class="brand-accent">hub</span></span></a>
+    <button class="category-btn" id="categoryBtn"><span class="grid-icon">▦</span> Categories</button>
+    <form class="search" id="searchForm" role="search">
+      <span class="search-icon">⌕</span>
+      <input id="searchInput" type="search" placeholder="Search for anything" aria-label="Search courses">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="header-links">
+      <a href="#courses">Explore</a>
+      <a href="#teach">Teach on LearnHub</a>
+    </nav>
+    <button class="icon-btn" id="wishlistNav" aria-label="Open wishlist">♡ <span id="wishlistCount">0</span></button>
+    <button class="login-btn" id="loginBtn">Log in</button>
+    <button class="signup-btn" id="signupBtn">Sign up</button>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR NEXT CHAPTER STARTS HERE</div>
+        <h1>Small steps.<br><span>Big possibilities.</span></h1>
+        <p>Learn in-demand skills from people who know their craft. Your next opportunity starts with one course.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#courses">Explore courses <span>↗</span></a>
+          <a class="text-btn" href="#how-it-works">How it works <span>→</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=faces"
+              alt="">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop&crop=faces"
+              alt="">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=80&h=80&fit=crop&crop=faces"
+              alt="">
+            <span>+</span>
+          </div>
+          <div><strong>50k+ learners</strong><small>are growing with us</small></div>
+          <div class="proof-divider"></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-wrap">
+          <img class="hero-image" src=" C:\Users\ASUS\Desktop\wdd project\learnhub_website\images\pandeyji.webp"
+            alt="Students learning together at a table">
+          <div class="image-shade"></div>
+          <!-- <div class="floating-card progress-card"><span class="floating-icon purple">↗</span>
+            <div><strong>You're on a roll!</strong><small>3-day learning streak</small></div><span
+              class="sparkle">✦</span>
+          </div> -->
+          <!-- <div class="floating-card course-card">
+            <div class="mini-thumb">JS</div> -->
+          <div><strong>JavaScript Essentials</strong><small>Lesson 08 · 72% complete</small>
+            <div class="progress-track"><span></span></div>
+          </div>
+        </div>
+        <!-- <div class="hero-bubble bubble-one">✳</div>
+        <div class="hero-bubble bubble-two">✦</div> -->
+      </div>
+      <div class="hero-caption"><span class="caption-line"></span> LEARN SOMETHING THAT MATTERS</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <span>Skills for where the world is going</span>
+      <div class="trust-logos"><b>◈ TECHFLOW</b><b class="serif-logo">northstar</b><b>✳ orbit</b><b
+          class="mono-logo">vertex_</b><b>△ pixelworks</b></div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">FIND YOUR DIRECTION</div>
+          <h2>What do you want to <span>learn?</span></h2>
+        </div>
+        <a class="view-link" href="#courses">Browse all courses <span>↗</span></a>
+      </div>
+      <div class="category-grid">
+        <button class="category-card selected" data-category="All"><span
+            class="category-symbol symbol-all">✦</span><span><strong>All courses</strong><small>Explore
+              everything</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Development"><span
+            class="category-symbol symbol-code">&lt;/&gt;</span><span><strong>Development</strong><small>Build digital
+              things</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Design"><span
+            class="category-symbol symbol-design">✳</span><span><strong>Design</strong><small>Make ideas
+              visual</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Business"><span
+            class="category-symbol symbol-business">↗</span><span><strong>Business</strong><small>Turn ideas into
+              action</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Data & AI"><span
+            class="category-symbol symbol-data">⌘</span><span><strong>Data & AI</strong><small>Find patterns, build
+              smart</small></span><span class="category-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="section-heading courses-heading">
+        <div>
+          <div class="section-kicker">CURATED FOR YOUR GROWTH</div>
+          <h2>Popular <span>right now.</span></h2>
+          <p class="section-description">Practical courses. Great instructors. Skills you can put to work.</p>
+        </div>
+        <div class="course-controls"><button class="filter-chip active" data-filter="All">All courses</button><button
+            class="filter-chip" data-filter="Bestseller">Bestsellers</button><button class="filter-chip"
+            data-filter="New">New releases</button></div>
+      </div>
+      <div class="results-line"><span id="resultsCount">Showing 6 courses</span><button id="clearFilters"
+          class="clear-filters">Clear filters ↺</button></div>
+      <div class="course-grid" id="courseGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <div>⌕</div>
+        <h3>No courses found</h3>
+        <p>Try another search or choose a different category.</p><button class="primary-btn" id="resetSearch">Show all
+          courses</button>
+      </div>
+      <div class="load-more-wrap"><button class="outline-btn" id="loadMore">Explore all courses <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="learning-banner" id="how-it-works">
+      <div class="banner-decoration">✳</div>
+      <div>
+        <div class="section-kicker light-kicker">YOUR GOALS, YOUR PACE</div>
+        <h2>Make learning a habit.<br><span>Make progress a lifestyle.</span></h2>
+        <p>Learn a little today. Get a little better tomorrow.</p>
+      </div>
+      <a href="#courses" class="banner-btn">Find your next course <span>↗</span></a>
+    </section>
+
+    <section class="section benefits-section" id="teach">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">WHY LEARNHUB</div>
+          <h2>Learning that fits <span>real life.</span></h2>
+        </div>
+      </div>
+      <div class="benefit-grid">
+        <article class="benefit">
+          <div class="benefit-icon">◷</div>
+          <h3>Learn on your time</h3>
+          <p>Short lessons and flexible learning let you fit new skills into a busy day.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit-icon">✧</div>
+          <h3>Learn by doing</h3>
+          <p>Build projects, practice new skills, and turn theory into real progress.</p>
+        </article>
+        <article class="benefit">
+          <div class="benefit-icon">↗</div>
+          <h3>Keep moving forward</h3>
+          <p>Track your learning and keep your momentum going, one lesson at a time.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">L</span><span>learn<span
+          class="brand-accent">hub</span></span></a>
+    <p>Curiosity looks good on you.</p>
+    <div class="footer-bottom"><span>© 2026 LearnHub. A demo learning platform.</span>
+      <div><a href="#courses">Courses</a><a href="#how-it-works">About</a><a href="#teach">Teach with us</a></div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close dialog">×</button>
+      <div class="modal-mark">L</div>
+      <h2 id="modalTitle">Welcome to LearnHub</h2>
+      <p id="modalDescription">Your next chapter starts here.</p>
+      <form id="accountForm"><label for="accountEmail">Email address</label><input id="accountEmail" type="email"
+          placeholder="you@example.com" required><label for="accountPassword">Password</label><input
+          id="accountPassword" type="password" placeholder="At least 6 characters" minlength="6" required><button
+          class="primary-btn modal-submit" type="submit" id="accountSubmit">Continue</button></form>
+      <small class="demo-note">Demo only — no account data is sent or stored.</small>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
